@@ -1,3 +1,5 @@
 package dev.namvdo.planmatcher.dataaccess;
 
-public record Plan(){ }
+import com.google.gson.JsonObject;
+
+public record Plan(String name, String description, String monthlyPrice, JsonObject component){ }
