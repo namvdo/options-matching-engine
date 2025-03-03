@@ -1,0 +1,499 @@
+{
+  "voiceOptions": [
+    {
+      "id": "voice-0",
+      "minutes": 0,
+      "displayName": "No minutes",
+      "description": "No voice calling included",
+      "basePrice": 0.00,
+      "serviceType": 101,
+      "isAvailableStandalone": false,
+      "compatiblePlans": ["plan-iot-1"],
+      "sliderInfo": {
+        "value": 0,
+        "displayUnit": "min"
+      }
+    },
+    {
+      "id": "voice-100",
+      "minutes": 100,
+      "displayName": "100 Minutes",
+      "description": "100 minutes for domestic calls",
+      "basePrice": 5.99,
+      "serviceType": 101,
+      "isAvailableStandalone": true,
+      "compatiblePlans": ["plan-basic-1", "plan-data-1"],
+      "sliderInfo": {
+        "value": 100,
+        "displayUnit": "min"
+      }
+    },
+    {
+      "id": "voice-200",
+      "minutes": 200,
+      "displayName": "200 Minutes",
+      "description": "200 minutes for domestic calls",
+      "basePrice": 9.99,
+      "serviceType": 112,
+      "isAvailableStandalone": true,
+      "compatiblePlans": ["plan-student-1"],
+      "sliderInfo": {
+        "value": 200,
+        "displayUnit": "min"
+      }
+    },
+    {
+      "id": "voice-300",
+      "minutes": 300,
+      "displayName": "300 Minutes",
+      "description": "300 minutes for domestic calls",
+      "basePrice": 12.99,
+      "serviceType": 101,
+      "isAvailableStandalone": true,
+      "compatiblePlans": ["plan-senior-1"],
+      "sliderInfo": {
+        "value": 300,
+        "displayUnit": "min"
+      }
+    },
+    {
+      "id": "voice-500",
+      "minutes": 500,
+      "displayName": "500 Minutes",
+      "description": "500 minutes for domestic calls",
+      "basePrice": 15.99,
+      "serviceType": 112,
+      "isAvailableStandalone": true,
+      "compatiblePlans": ["plan-standard-1"],
+      "sliderInfo": {
+        "value": 500,
+        "displayUnit": "min"
+      }
+    },
+    {
+      "id": "voice-500-intl",
+      "minutes": 500,
+      "displayName": "500 Minutes (Global)",
+      "description": "500 minutes for domestic and international calls",
+      "basePrice": 25.99,
+      "serviceType": 101,
+      "isAvailableStandalone": true,
+      "compatiblePlans": ["plan-travel-1"],
+      "sliderInfo": {
+        "value": 500,
+        "displayUnit": "min",
+        "specialType": "international"
+      }
+    },
+    {
+      "id": "voice-1000",
+      "minutes": 1000,
+      "displayName": "1000 Minutes",
+      "description": "1000 minutes for domestic calls",
+      "basePrice": 22.99,
+      "serviceType": 112,
+      "isAvailableStandalone": true,
+      "compatiblePlans": [],
+      "sliderInfo": {
+        "value": 1000,
+        "displayUnit": "min"
+      }
+    },
+    {
+      "id": "voice-1000-shared",
+      "minutes": 1000,
+      "displayName": "1000 Shared Minutes",
+      "description": "1000 shared minutes for domestic calls",
+      "basePrice": 30.99,
+      "serviceType": 101,
+      "isAvailableStandalone": false,
+      "compatiblePlans": ["plan-family-1"],
+      "sliderInfo": {
+        "value": 1000,
+        "displayUnit": "min",
+        "specialType": "shared"
+      }
+    },
+    {
+      "id": "voice-2000",
+      "minutes": 2000,
+      "displayName": "2000 Minutes",
+      "description": "2000 minutes for domestic calls",
+      "basePrice": 35.99,
+      "serviceType": 112,
+      "isAvailableStandalone": true,
+      "compatiblePlans": ["plan-business-1"],
+      "sliderInfo": {
+        "value": 2000,
+        "displayUnit": "min"
+      }
+    },
+    {
+      "id": "voice-unlimited",
+      "minutes": null,
+      "displayName": "Unlimited Minutes",
+      "description": "Unlimited domestic calls",
+      "basePrice": 40.99,
+      "serviceType": 101,
+      "isAvailableStandalone": true,
+      "compatiblePlans": ["plan-premium-1"],
+      "sliderInfo": {
+        "value": 9999,
+        "displayUnit": "min",
+        "specialType": "unlimited"
+      }
+    }
+  ],
+  "dataOptions": [
+    {
+      "id": "data-1",
+      "gigabytes": 1,
+      "displayName": "1GB Data",
+      "description": "1GB of 4G data",
+      "basePrice": 8.99,
+      "serviceType": 101,
+      "isAvailableStandalone": true,
+      "compatiblePlans": ["plan-basic-1"],
+      "sliderInfo": {
+        "value": 1,
+        "displayUnit": "GB"
+      }
+    },
+    {
+      "id": "data-1-iot",
+      "gigabytes": 1,
+      "displayName": "1GB IoT Data",
+      "description": "1GB of 4G data optimized for IoT",
+      "basePrice": 4.99,
+      "serviceType": 112,
+      "isAvailableStandalone": true,
+      "compatiblePlans": ["plan-iot-1"],
+      "sliderInfo": {
+        "value": 1,
+        "displayUnit": "GB",
+        "specialType": "iot"
+      }
+    },
+    {
+      "id": "data-2",
+      "gigabytes": 2,
+      "displayName": "2GB Data",
+      "description": "2GB of 4G data",
+      "basePrice": 12.99,
+      "serviceType": 101,
+      "isAvailableStandalone": true,
+      "compatiblePlans": ["plan-senior-1"],
+      "sliderInfo": {
+        "value": 2,
+        "displayUnit": "GB"
+      }
+    },
+    {
+      "id": "data-5",
+      "gigabytes": 5,
+      "displayName": "5GB Data",
+      "description": "5GB of 4G data",
+      "basePrice": 18.99,
+      "serviceType": 112,
+      "isAvailableStandalone": true,
+      "compatiblePlans": ["plan-standard-1"],
+      "sliderInfo": {
+        "value": 5,
+        "displayUnit": "GB"
+      }
+    },
+    {
+      "id": "data-8",
+      "gigabytes": 8,
+      "displayName": "8GB Data",
+      "description": "8GB of 4G data",
+      "basePrice": 22.99,
+      "serviceType": 101,
+      "isAvailableStandalone": true,
+      "compatiblePlans": ["plan-student-1"],
+      "sliderInfo": {
+        "value": 8,
+        "displayUnit": "GB"
+      }
+    },
+    {
+      "id": "data-10-intl",
+      "gigabytes": 10,
+      "displayName": "10GB Global Data",
+      "description": "10GB of data with international roaming",
+      "basePrice": 35.99,
+      "serviceType": 112,
+      "isAvailableStandalone": true,
+      "compatiblePlans": ["plan-travel-1"],
+      "sliderInfo": {
+        "value": 10,
+        "displayUnit": "GB",
+        "specialType": "international"
+      }
+    },
+    {
+      "id": "data-15",
+      "gigabytes": 15,
+      "displayName": "15GB Data",
+      "description": "15GB of 5G data",
+      "basePrice": 29.99,
+      "serviceType": 101,
+      "isAvailableStandalone": true,
+      "compatiblePlans": ["plan-business-1"],
+      "sliderInfo": {
+        "value": 15,
+        "displayUnit": "GB"
+      }
+    },
+    {
+      "id": "data-20",
+      "gigabytes": 20,
+      "displayName": "20GB Data",
+      "description": "20GB of 5G data",
+      "basePrice": 35.99,
+      "serviceType": 112,
+      "isAvailableStandalone": true,
+      "compatiblePlans": ["plan-premium-1"],
+      "sliderInfo": {
+        "value": 20,
+        "displayUnit": "GB"
+      }
+    },
+    {
+      "id": "data-30-shared",
+      "gigabytes": 30,
+      "displayName": "30GB Shared Data",
+      "description": "30GB of shared 5G data",
+      "basePrice": 45.99,
+      "serviceType": 101,
+      "isAvailableStandalone": false,
+      "compatiblePlans": ["plan-family-1"],
+      "sliderInfo": {
+        "value": 30,
+        "displayUnit": "GB",
+        "specialType": "shared"
+      }
+    },
+    {
+      "id": "data-50",
+      "gigabytes": 50,
+      "displayName": "50GB Data",
+      "description": "50GB of 5G data",
+      "basePrice": 55.99,
+      "serviceType": 112,
+      "isAvailableStandalone": true,
+      "compatiblePlans": ["plan-data-1"],
+      "sliderInfo": {
+        "value": 50,
+        "displayUnit": "GB"
+      }
+    },
+    {
+      "id": "data-100",
+      "gigabytes": 100,
+      "displayName": "100GB Data",
+      "description": "100GB of 5G data",
+      "basePrice": 79.99,
+      "serviceType": 101,
+      "isAvailableStandalone": true,
+      "compatiblePlans": [],
+      "sliderInfo": {
+        "value": 100,
+        "displayUnit": "GB"
+      }
+    },
+    {
+      "id": "data-unlimited",
+      "gigabytes": null,
+      "displayName": "Unlimited Data",
+      "description": "Unlimited 5G data",
+      "basePrice": 99.99,
+      "serviceType": 112,
+      "isAvailableStandalone": true,
+      "compatiblePlans": [],
+      "sliderInfo": {
+        "value": 999,
+        "displayUnit": "GB",
+        "specialType": "unlimited"
+      }
+    }
+  ],
+  "smsOptions": [
+    {
+      "id": "sms-0",
+      "count": 0,
+      "displayName": "No SMS",
+      "description": "No SMS messages included",
+      "basePrice": 0.00,
+      "serviceType": 101,
+      "isAvailableStandalone": false,
+      "compatiblePlans": [],
+      "sliderInfo": {
+        "value": 0,
+        "displayUnit": "messages"
+      }
+    },
+    {
+      "id": "sms-50",
+      "count": 50,
+      "displayName": "50 SMS",
+      "description": "50 SMS messages",
+      "basePrice": 2.99,
+      "serviceType": 112,
+      "isAvailableStandalone": true,
+      "compatiblePlans": ["plan-basic-1"],
+      "sliderInfo": {
+        "value": 50,
+        "displayUnit": "messages"
+      }
+    },
+    {
+      "id": "sms-50-iot",
+      "count": 50,
+      "displayName": "50 IoT SMS",
+      "description": "50 SMS messages for device notifications",
+      "basePrice": 1.99,
+      "serviceType": 101,
+      "isAvailableStandalone": false,
+      "compatiblePlans": ["plan-iot-1"],
+      "sliderInfo": {
+        "value": 50,
+        "displayUnit": "messages",
+        "specialType": "iot"
+      }
+    },
+    {
+      "id": "sms-100",
+      "count": 100,
+      "displayName": "100 SMS",
+      "description": "100 SMS messages",
+      "basePrice": 4.99,
+      "serviceType": 112,
+      "isAvailableStandalone": true,
+      "compatiblePlans": ["plan-data-1"],
+      "sliderInfo": {
+        "value": 100,
+        "displayUnit": "messages"
+      }
+    },
+    {
+      "id": "sms-200",
+      "count": 200,
+      "displayName": "200 SMS",
+      "description": "200 SMS messages",
+      "basePrice": 6.99,
+      "serviceType": 101,
+      "isAvailableStandalone": true,
+      "compatiblePlans": ["plan-standard-1", "plan-senior-1"],
+      "sliderInfo": {
+        "value": 200,
+        "displayUnit": "messages"
+      }
+    },
+    {
+      "id": "sms-500",
+      "count": 500,
+      "displayName": "500 SMS",
+      "description": "500 SMS messages",
+      "basePrice": 8.99,
+      "serviceType": 112,
+      "isAvailableStandalone": true,
+      "compatiblePlans": ["plan-business-1"],
+      "sliderInfo": {
+        "value": 500,
+        "displayUnit": "messages"
+      }
+    },
+    {
+      "id": "sms-1000",
+      "count": 1000,
+      "displayName": "1000 SMS",
+      "description": "1000 SMS messages",
+      "basePrice": 12.99,
+      "serviceType": 101,
+      "isAvailableStandalone": true,
+      "compatiblePlans": [],
+      "sliderInfo": {
+        "value": 1000,
+        "displayUnit": "messages"
+      }
+    },
+    {
+      "id": "sms-unlimited",
+      "count": null,
+      "displayName": "Unlimited SMS",
+      "description": "Unlimited SMS messages",
+      "basePrice": 15.99,
+      "serviceType": 112,
+      "isAvailableStandalone": true,
+      "compatiblePlans": ["plan-premium-1", "plan-family-1", "plan-student-1"],
+      "sliderInfo": {
+        "value": 9999,
+        "displayUnit": "messages",
+        "specialType": "unlimited"
+      }
+    },
+    {
+      "id": "sms-unlimited-intl",
+      "count": null,
+      "displayName": "Unlimited Global SMS",
+      "description": "Unlimited domestic and international SMS",
+      "basePrice": 20.99,
+      "serviceType": 101,
+      "isAvailableStandalone": true,
+      "compatiblePlans": ["plan-travel-1"],
+      "sliderInfo": {
+        "value": 9999,
+        "displayUnit": "messages",
+        "specialType": "unlimited-international"
+      }
+    }
+  ],
+  "sliderConfigurations": {
+    "voice": {
+      "min": 0,
+      "max": 9999,
+      "step": 100,
+      "defaultValue": 500,
+      "unit": "minutes",
+      "displayName": "Voice Minutes",
+      "snapPoints": [0, 100, 200, 300, 500, 1000, 2000, 9999],
+      "specialValues": [
+        {
+          "value": 9999,
+          "label": "Unlimited"
+        }
+      ]
+    },
+    "data": {
+      "min": 1,
+      "max": 999,
+      "step": 1,
+      "defaultValue": 5,
+      "unit": "GB",
+      "displayName": "Data",
+      "snapPoints": [1, 2, 5, 8, 10, 15, 20, 30, 50, 100, 999],
+      "specialValues": [
+        {
+          "value": 999,
+          "label": "Unlimited"
+        }
+      ]
+    },
+    "sms": {
+      "min": 0,
+      "max": 9999,
+      "step": 50,
+      "defaultValue": 200,
+      "unit": "messages",
+      "displayName": "SMS Messages",
+      "snapPoints": [0, 50, 100, 200, 500, 1000, 9999],
+      "specialValues": [
+        {
+          "value": 9999,
+          "label": "Unlimited"
+        }
+      ]
+    }
+  }
+}

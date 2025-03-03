@@ -1,0 +1,272 @@
+[
+  {
+    "id": "plan-basic-1",
+    "name": "Basic Starter",
+    "description": "Entry-level plan for light users",
+    "monthlyPrice": 19.99,
+    "components": {
+      "voice": {
+        "id": "voice-100",
+        "minutes": 100,
+        "description": "100 minutes for domestic calls"
+      },
+      "data": {
+        "id": "data-1",
+        "gigabytes": 1,
+        "description": "1GB of 4G data"
+      },
+      "sms": {
+        "id": "sms-50",
+        "count": 50,
+        "description": "50 SMS messages"
+      }
+    },
+    "features": ["Rollover Data", "Visual Voicemail"],
+    "targetSegment": "Budget",
+    "promotionalOffer": null,
+    "minContractMonths": 1
+  },
+  {
+    "id": "plan-standard-1",
+    "name": "Standard Value",
+    "description": "Balanced plan for average users",
+    "monthlyPrice": 29.99,
+    "components": {
+      "voice": {
+        "id": "voice-500",
+        "minutes": 500,
+        "description": "500 minutes for domestic calls"
+      },
+      "data": {
+        "id": "data-5",
+        "gigabytes": 5,
+        "description": "5GB of 4G data"
+      },
+      "sms": {
+        "id": "sms-200",
+        "count": 200,
+        "description": "200 SMS messages"
+      }
+    },
+    "features": ["Rollover Data", "Visual Voicemail", "International Texting"],
+    "targetSegment": "Value",
+    "promotionalOffer": null,
+    "minContractMonths": 1
+  },
+  {
+    "id": "plan-premium-1",
+    "name": "Premium Power",
+    "description": "High-end plan for heavy users",
+    "monthlyPrice": 49.99,
+    "components": {
+      "voice": {
+        "id": "voice-unlimited",
+        "minutes": null,
+        "description": "Unlimited domestic calls"
+      },
+      "data": {
+        "id": "data-20",
+        "gigabytes": 20,
+        "description": "20GB of 5G data"
+      },
+      "sms": {
+        "id": "sms-unlimited",
+        "count": null,
+        "description": "Unlimited SMS messages"
+      }
+    },
+    "features": ["Rollover Data", "Visual Voicemail", "International Texting", "HD Streaming", "Hotspot Data"],
+    "targetSegment": "Premium",
+    "promotionalOffer": null,
+    "minContractMonths": 1
+  },
+  {
+    "id": "plan-family-1",
+    "name": "Family Share",
+    "description": "Shared plan for families with multiple lines",
+    "monthlyPrice": 79.99,
+    "components": {
+      "voice": {
+        "id": "voice-1000-shared",
+        "minutes": 1000,
+        "description": "1000 shared minutes for domestic calls"
+      },
+      "data": {
+        "id": "data-30-shared",
+        "gigabytes": 30,
+        "description": "30GB of shared 5G data"
+      },
+      "sms": {
+        "id": "sms-unlimited",
+        "count": null,
+        "description": "Unlimited SMS messages"
+      }
+    },
+    "features": ["Rollover Data", "Visual Voicemail", "International Texting", "HD Streaming", "Parental Controls"],
+    "targetSegment": "Family",
+    "promotionalOffer": "First month free",
+    "minContractMonths": 12
+  },
+  {
+    "id": "plan-data-1",
+    "name": "Data Lover",
+    "description": "Data-focused plan for streaming and downloads",
+    "monthlyPrice": 39.99,
+    "components": {
+      "voice": {
+        "id": "voice-100",
+        "minutes": 100,
+        "description": "100 minutes for domestic calls"
+      },
+      "data": {
+        "id": "data-50",
+        "gigabytes": 50,
+        "description": "50GB of 5G data"
+      },
+      "sms": {
+        "id": "sms-100",
+        "count": 100,
+        "description": "100 SMS messages"
+      }
+    },
+    "features": ["Rollover Data", "HD Streaming", "Zero-rated Social Media", "Hotspot Data"],
+    "targetSegment": "Data-Centric",
+    "promotionalOffer": "Free music streaming subscription",
+    "minContractMonths": 1
+  },
+  {
+    "id": "plan-business-1",
+    "name": "Business Pro",
+    "description": "Professional plan for business users",
+    "monthlyPrice": 59.99,
+    "components": {
+      "voice": {
+        "id": "voice-2000",
+        "minutes": 2000,
+        "description": "2000 minutes for domestic calls"
+      },
+      "data": {
+        "id": "data-15",
+        "gigabytes": 15,
+        "description": "15GB of 5G data"
+      },
+      "sms": {
+        "id": "sms-500",
+        "count": 500,
+        "description": "500 SMS messages"
+      }
+    },
+    "features": ["Rollover Data", "Visual Voicemail", "International Calls", "Hotspot Data", "Priority Support"],
+    "targetSegment": "Business",
+    "promotionalOffer": null,
+    "minContractMonths": 24
+  },
+  {
+    "id": "plan-senior-1",
+    "name": "Senior Connect",
+    "description": "Simplified plan for seniors",
+    "monthlyPrice": 24.99,
+    "components": {
+      "voice": {
+        "id": "voice-300",
+        "minutes": 300,
+        "description": "300 minutes for domestic calls"
+      },
+      "data": {
+        "id": "data-2",
+        "gigabytes": 2,
+        "description": "2GB of 4G data"
+      },
+      "sms": {
+        "id": "sms-200",
+        "count": 200,
+        "description": "200 SMS messages"
+      }
+    },
+    "features": ["Large Text Interface", "Emergency Services", "Technical Support"],
+    "targetSegment": "Senior",
+    "promotionalOffer": "Free basic phone",
+    "minContractMonths": 12
+  },
+  {
+    "id": "plan-travel-1",
+    "name": "Global Traveler",
+    "description": "Plan optimized for international travelers",
+    "monthlyPrice": 69.99,
+    "components": {
+      "voice": {
+        "id": "voice-500-intl",
+        "minutes": 500,
+        "description": "500 minutes for domestic and international calls"
+      },
+      "data": {
+        "id": "data-10-intl",
+        "gigabytes": 10,
+        "description": "10GB of data with international roaming"
+      },
+      "sms": {
+        "id": "sms-unlimited-intl",
+        "count": null,
+        "description": "Unlimited domestic and international SMS"
+      }
+    },
+    "features": ["Global Roaming", "Travel Insurance", "Translation Services", "International Hotspot"],
+    "targetSegment": "Traveler",
+    "promotionalOffer": null,
+    "minContractMonths": 1
+  },
+  {
+    "id": "plan-student-1",
+    "name": "Student Special",
+    "description": "Affordable plan designed for students",
+    "monthlyPrice": 25.99,
+    "components": {
+      "voice": {
+        "id": "voice-200",
+        "minutes": 200,
+        "description": "200 minutes for domestic calls"
+      },
+      "data": {
+        "id": "data-8",
+        "gigabytes": 8,
+        "description": "8GB of 4G data"
+      },
+      "sms": {
+        "id": "sms-unlimited",
+        "count": null,
+        "description": "Unlimited SMS messages"
+      }
+    },
+    "features": ["Zero-rated Educational Sites", "Rollover Data", "Student Discounts"],
+    "targetSegment": "Student",
+    "promotionalOffer": "50% off first 3 months with valid student ID",
+    "minContractMonths": 6
+  },
+  {
+    "id": "plan-iot-1",
+    "name": "IoT Connect",
+    "description": "Specialized plan for IoT devices",
+    "monthlyPrice": 9.99,
+    "components": {
+      "voice": {
+        "id": "voice-0",
+        "minutes": 0,
+        "description": "No voice minutes"
+      },
+      "data": {
+        "id": "data-1-iot",
+        "gigabytes": 1,
+        "description": "1GB of 4G data optimized for IoT"
+      },
+      "sms": {
+        "id": "sms-50-iot",
+        "count": 50,
+        "description": "50 SMS messages for device notifications"
+      }
+    },
+    "features": ["Device Management Portal", "Low Latency", "Static IP"],
+    "targetSegment": "IoT",
+    "promotionalOffer": null,
+    "minContractMonths": 12
+  }
+]
