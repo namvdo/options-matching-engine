@@ -30,7 +30,7 @@ public class ComponentService {
   @PostConstruct
   public void loadComponentOptions() {
     try {
-      InputStream inputStream = getClass().getResourceAsStream("data/options.json");
+      InputStream inputStream = getClass().getResourceAsStream("/data/options.json");
       componentOptions = objectMapper.readValue(inputStream, ComponentOptions.class);
       log.info("Loaded component options: {} voice, {} data, {} SMS options",
           componentOptions.getVoiceOptions().size(),

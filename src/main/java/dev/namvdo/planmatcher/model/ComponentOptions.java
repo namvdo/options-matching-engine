@@ -2,16 +2,16 @@ package dev.namvdo.planmatcher.model;
 
 import lombok.AllArgsConstructor;
 import lombok.Builder;
-import lombok.Data;
+import lombok.Getter;
 import lombok.NoArgsConstructor;
 
 import java.util.List;
 import java.util.Map;
 
-@Data
 @Builder
 @NoArgsConstructor
 @AllArgsConstructor
+@Getter
 public class ComponentOptions {
   private List<VoiceOption> voiceOptions;
   private List<DataOption> dataOptions;

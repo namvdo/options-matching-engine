@@ -19,7 +19,12 @@ public class SmsOption {
   private String description;
   private BigDecimal basePrice;
   private Integer serviceType;
-  private boolean isAvailableStandalone;
+  private Boolean isAvailableStandalone;
   private List<String> compatiblePlans;
   private SliderInfo sliderInfo;
+
+
+  public boolean isAvailableStandalone() {
+    return this.isAvailableStandalone;
+  }
 }
