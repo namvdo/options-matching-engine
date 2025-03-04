@@ -1,17 +1,14 @@
 package dev.namvdo.planmatcher.response;
 
-import dev.namvdo.planmatcher.model.Plan;
 import lombok.AllArgsConstructor;
 import lombok.Builder;
 import lombok.Getter;
 
-import java.util.Map;
-
-@Getter
 @AllArgsConstructor
+@Getter
 @Builder
-public class PlanMatch {
-  private Plan plan;
+public class ComponentMatch {
+  private String componentId;
   private Double matchScore;
-  private Map<String, ComponentMatch> componentMatches;
+  private boolean exactMatch;
 }

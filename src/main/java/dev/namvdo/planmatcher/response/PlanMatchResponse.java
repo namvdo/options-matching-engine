@@ -1,14 +1,13 @@
 package dev.namvdo.planmatcher.response;
 
-import lombok.AllArgsConstructor;
+import dev.namvdo.planmatcher.model.SliderConfiguration;
 import lombok.Builder;
-import lombok.Data;
-import lombok.NoArgsConstructor;
+import lombok.Getter;
 
-@Data
+import java.util.List;
+import java.util.Map;
 @Builder
-@NoArgsConstructor
-@AllArgsConstructor
+@Getter
 public class PlanMatchResponse {
   private List<PlanMatch> matches;
   private Map<String, SliderConfiguration> sliderConfigurations;
